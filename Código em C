@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int numero, resto;
+
+    printf("Digite um número inteiro: ");
+    scanf("%d", &numero);
+
+    resto = numero % 3;
+
+    printf("O resto da divisão por 3 é: %d\n", resto);
+
+    return 0;
+}
